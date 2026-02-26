@@ -1,0 +1,406 @@
+
+
+.columbarium-page .col-split {
+    max-width: 1100px;
+    margin: 450px auto 300px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 100px;
+    align-items: start;
+}
+
+.columbarium-page .col-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 40px;
+    align-content: start;
+}
+
+.columbarium-page .col-feature-grid img {
+    width: 200px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.columbarium-page .col-text {
+    max-width: 450px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.columbarium-page .col-text h2 {
+    font-weight: 400;
+}
+
+.columbarium-page .col-dates {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.columbarium-page .col-dates .date-group {
+    margin: 0 0 150px;
+}
+
+.columbarium-page .date-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 14px;
+}
+
+.columbarium-page .date-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.making-conversation-page .mc-split {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 575px) minmax(0, 600px);
+    gap: 180px;
+    align-items: start;
+    justify-content: center;
+    transform: translateX(150px);
+}
+
+.making-conversation-page .mc-collage {
+    position: relative;
+    max-width: 575px;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    transform: translateX(-200px);
+}
+
+.making-conversation-page .mc-collage img {
+    position: absolute;
+    display: block;
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+    transform: scale(0.8);
+    transform-origin: top left;
+}
+
+.making-conversation-page .mc-collage .img-1 { width: 240px; top: 10px; left: 0; z-index: 2; }
+.making-conversation-page .mc-collage .img-2 { width: 210px; top: 50px; left: 265px; z-index: 3; }
+.making-conversation-page .mc-collage .img-3 { width: 250px; top: 175px; left: 55px; z-index: 4; }
+.making-conversation-page .mc-collage .img-4 { width: 220px; top: 215px; left: 305px; z-index: 5; }
+.making-conversation-page .mc-collage .img-5 { width: 230px; top: 380px; left: 10px; z-index: 3; }
+.making-conversation-page .mc-collage .img-6 { width: 200px; top: 420px; left: 270px; z-index: 4; }
+.making-conversation-page .mc-collage .img-7 { width: 230px; top: 570px; left: 140px; z-index: 5; }
+
+.making-conversation-page .mc-text {
+    max-width: 600px;
+    line-height: 1.2;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.making-conversation-page .mc-text p {
+    margin: 0 0 12px;
+}
+
+.east-london-page .project-hero img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto 50px;
+}
+
+.east-london-page .el-group {
+    max-width: 1100px;
+    margin: 0 auto 200px;
+}
+
+.east-london-page .project-hero {
+    margin-bottom: 250px;
+}
+
+.east-london-page .el-feature {
+    margin-top: 0;
+}
+
+.east-london-page .el-feature .el-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.east-london-page .el-feature .el-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    grid-column: 1 / -1;
+}
+
+.east-london-page .el-feature .el-row:nth-child(odd) {
+    transform: translateX(-140px);
+}
+
+.east-london-page .el-feature .el-row:nth-child(even) {
+    transform: translateX(140px);
+}
+
+.east-london-page .el-grid4x3 .el-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.east-london-page .el-portrait .el-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.east-london-page .el-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.east-london-page .el-description {
+    max-width: 600px;
+    margin: 350px auto 350px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.east-london-page .el-description h2,
+.east-london-page .el-description h3 {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.east-london-page .el-description p {
+    margin: 0 0 18px;
+}
+
+.east-london-page img {
+    transform: translateY(150px);
+}
+
+.east-london-page .el-portrait .el-grid img {
+    width: 200px;
+    height: auto;
+}
+
+.alienated-page .project-midtitle {
+    text-align: center;
+    margin: 12px auto 28px;
+}
+
+.alienated-page .project-hero img {
+    height: 600px;
+    width: auto;
+    max-width: 100%;
+}
+
+.alienated-page .project-detail-split {
+    max-width: 1100px;
+    margin: 0 auto 32px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+}
+
+.alienated-page .project-detail-media,
+.alienated-page .project-detail-text {
+    max-width: 600px;
+}
+
+.alienated-page .project-detail-media video {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.alienated-page .project-detail-text {
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.alienated-page .project-detail-text p {
+    margin: 0 0 16px;
+}
+
+.detail-size-override .project-hero img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.detail-size-override main img {
+    width: 37.5%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.detail-size-override .project-hero img {
+    width: 50%;
+}
+
+.project-detail {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.project-detail .hero-image {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto 24px;
+}
+
+.project-detail .project-gallery-solo {
+    max-width: 1100px;
+    margin: 0 auto 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.project-detail .project-gallery-solo img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-detail .project-gallery-grid4 {
+    max-width: 616px;
+    margin: 24px auto 96px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.project-detail .project-gallery-grid4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-detail .back-link,
+.back-link {
+    color: #000;
+}
+
+.project-detail .back-link:hover,
+.back-link:hover {
+    color: #000;
+}
+
+/* Content Page Styles */
+.content-section {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 15vh 20px 0;
+}
+
+.content-section h2 {
+    /* The design for statement doesn't have a title */
+    display: none;
+}
+
+/* CV Section Styling */
+.cv-section {
+    margin-top: 100px;
+}
+
+.cv-section h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2.0em;
+    margin-bottom: 20px;
+}
+
+.cv-item {
+    margin-bottom: 25px;
+}
+
+.cv-item h4 {
+    font-weight: 500;
+    font-size: 1.05em;
+    margin-bottom: 10px;
+}
+
+.cv-item p {
+    margin-bottom: 2px;
+    line-height: 1.6;
+}
+/* ===== Work: list rows (thumb left, text right) ===== */
+.work-page .section-title{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.work-page .work-list{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 20px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.work-page .work-row{
+  display: grid;
+  grid-template-columns: minmax(260px, 520px) 1fr;
+  gap: 250px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.work-page .work-thumb{
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: contain;
+  display: block;
+}
+.work-page .work-meta{ text-align: left; }
+.work-page .work-line{
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.work-page .work-year{
+  font-size: 1em;
+  font-weight: 400;
+  color: #111;
+}
+/* ===== Work: typography override (smaller) ===== */
+.work-page .work-line{
+  font-size: 1.15em; /* smaller title */
+}
+.work-page .work-year{
+  font-size: 0.9em;  /* smaller year */
+}
+/* ===== Work: typography override (match Home) ===== */
+.work-page .work-line{
+  font-size: 0.95em; /* match .selected-work-title */
+}
+.work-page .work-year{
+  font-size: 0.85em; /* match .selected-work-year */
+}
+
+/* ===== Work page: hide big "Work" title only ===== */
+.work-page .section-title{
+  display: none;
+}
