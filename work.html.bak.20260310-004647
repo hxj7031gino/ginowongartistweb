@@ -20,13 +20,6 @@
     <main>
         <h1 class="section-title">Work</h1>
         <div class="work-list">
-            <a class="work-row" href="works/projects/p-2026-002-test-project/index.html">
-                <img class="work-thumb" src="works/projects/p-2026-002-test-project/img/thumb.jpg" alt="test-projct">
-                <div class="work-meta">
-                    <div class="work-line">test project 26)</span></div>
-                </div>
-            </a>
-            
             <a class="work-row" href="works/projects/p-2026-001-test-project/index.html">
                 <img class="work-thumb" src="works/projects/p-2026-001-test-project/img/thumb.jpg" alt="test project">
                 <div class="work-meta">
