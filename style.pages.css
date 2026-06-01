@@ -295,6 +295,20 @@
     display: block;
 }
 
+.nine-dragons-manage-water-page .project-hero {
+    margin: 72px 0 72px;
+}
+
+.nine-dragons-manage-water-page .project-hero img {
+    width: 80%;
+}
+
+.nine-dragons-manage-water-page .project-description {
+    max-width: 680px;
+    margin: 0 auto 72px;
+    text-align: justify;
+}
+
 .project-detail .back-link,
 .back-link {
     color: #000;
