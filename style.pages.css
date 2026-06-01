@@ -309,6 +309,20 @@
     text-align: justify;
 }
 
+.four-by-eight-feet-2-2-page .project-hero {
+    margin: 72px 0 72px;
+}
+
+.four-by-eight-feet-2-2-page .project-hero img {
+    width: 85%;
+}
+
+.four-by-eight-feet-2-2-page .project-description {
+    max-width: 680px;
+    margin: 0 auto 72px;
+    text-align: justify;
+}
+
 .project-detail .back-link,
 .back-link {
     color: #000;
