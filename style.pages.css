@@ -345,6 +345,18 @@
     display: none;
 }
 
+.statement-content,
+.bio-intro {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.statement-content p,
+.bio-intro p {
+    text-align: justify;
+}
+
 /* CV Section Styling */
 .cv-section {
     margin-top: 100px;
