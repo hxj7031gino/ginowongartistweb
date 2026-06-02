@@ -55,6 +55,38 @@
     object-fit: contain;
 }
 
+@media (max-width: 900px) {
+    .columbarium-page .col-split {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .columbarium-page .col-feature-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .columbarium-page .col-feature-grid img {
+        width: 100%;
+        max-width: 200px;
+    }
+    .columbarium-page .date-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .columbarium-page .col-feature-grid {
+        grid-template-columns: 1fr;
+    }
+    .columbarium-page .date-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .columbarium-page .col-text,
+    .columbarium-page .project-back {
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .making-conversation-page .mc-split {
     max-width: 1100px;
     margin: 0 auto;
@@ -103,6 +135,44 @@
 
 .making-conversation-page .mc-text p {
     margin: 0 0 12px;
+}
+
+@media (max-width: 900px) {
+    .making-conversation-page .mc-split {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        transform: none;
+    }
+    .making-conversation-page .mc-collage {
+        max-width: 520px;
+        height: 660px;
+    }
+    .making-conversation-page .mc-collage img {
+        max-width: 210px;
+    }
+    .making-conversation-page .mc-collage .img-1 { width: 200px; top: 5px; left: 0; }
+    .making-conversation-page .mc-collage .img-2 { width: 180px; top: 35px; left: 225px; }
+    .making-conversation-page .mc-collage .img-3 { width: 210px; top: 150px; left: 40px; }
+    .making-conversation-page .mc-collage .img-4 { width: 190px; top: 185px; left: 255px; }
+    .making-conversation-page .mc-collage .img-5 { width: 200px; top: 340px; left: 10px; }
+    .making-conversation-page .mc-collage .img-6 { width: 180px; top: 380px; left: 230px; }
+    .making-conversation-page .mc-collage .img-7 { width: 200px; top: 525px; left: 120px; }
+}
+
+@media (max-width: 600px) {
+    .making-conversation-page .mc-collage {
+        max-width: 420px;
+        height: 620px;
+    }
+    .making-conversation-page .mc-collage img {
+        max-width: 170px;
+    }
+    .making-conversation-page .mc-text,
+    .making-conversation-page .project-back {
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .east-london-page .project-hero img {
@@ -193,6 +263,34 @@
     height: auto;
 }
 
+@media (max-width: 900px) {
+    .east-london-page .el-feature .el-row {
+        grid-template-columns: 1fr;
+        transform: none;
+    }
+    .east-london-page .el-grid4x3 .el-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .east-london-page .el-portrait .el-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .east-london-page .el-grid4x3 .el-grid {
+        grid-template-columns: 1fr;
+    }
+    .east-london-page .el-portrait .el-grid {
+        grid-template-columns: 1fr;
+    }
+    .east-london-page .el-description,
+    .east-london-page .project-back {
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .alienated-page .project-midtitle {
     text-align: center;
     margin: 12px auto 28px;
@@ -234,6 +332,24 @@
 
 .alienated-page .project-detail-text p {
     margin: 0 0 16px;
+}
+
+@media (max-width: 900px) {
+    .alienated-page .project-detail-split {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .alienated-page .project-detail-media,
+    .alienated-page .project-detail-text {
+        max-width: 100%;
+    }
+    .alienated-page .project-midtitle,
+    .alienated-page .project-detail-text,
+    .alienated-page .project-back {
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .detail-size-override .project-hero img {
@@ -295,6 +411,30 @@
     display: block;
 }
 
+@media (max-width: 900px) {
+    .project-detail .project-gallery-grid4 {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-detail .project-gallery-grid4 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        max-width: 100%;
+    }
+    .project-detail .project-gallery-solo img {
+        width: 100%;
+    }
+    .project-detail .back-link {
+        display: block;
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .nine-dragons-manage-water-page .project-hero {
     margin: 72px 0 72px;
 }
@@ -321,6 +461,25 @@
     max-width: 680px;
     margin: 0 auto 72px;
     text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .project-page .project-title,
+    .project-page .project-meta,
+    .project-page .project-description,
+    .project-page .project-back,
+    .nine-dragons-manage-water-page .project-title,
+    .nine-dragons-manage-water-page .project-meta,
+    .nine-dragons-manage-water-page .project-description,
+    .nine-dragons-manage-water-page .project-back,
+    .four-by-eight-feet-2-2-page .project-title,
+    .four-by-eight-feet-2-2-page .project-meta,
+    .four-by-eight-feet-2-2-page .project-description,
+    .four-by-eight-feet-2-2-page .project-back {
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .project-detail .back-link,
@@ -360,6 +519,20 @@
 .statement-content p,
 .bio-intro p {
     text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .statement-title,
+    .statement-subtitle,
+    .statement-content,
+    .bio-section-title,
+    .bio-year,
+    .bio-list,
+    .bio-intro {
+        width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* CV Section Styling */
@@ -448,4 +621,12 @@
 /* ===== Work page: hide big "Work" title only ===== */
 .work-page .section-title{
   display: none;
+}
+@media (max-width: 800px){
+  .work-page .work-row{
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .work-page .work-meta{ text-align: center; }
+  .work-page .work-thumb{ height: 260px; }
 }
