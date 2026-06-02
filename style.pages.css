@@ -352,6 +352,11 @@
     text-align: justify;
 }
 
+.statement-subtitle {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
 .statement-content p,
 .bio-intro p {
     text-align: justify;
