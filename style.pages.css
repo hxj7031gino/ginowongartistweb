@@ -771,6 +771,9 @@
   flex-direction: column;
   gap: 56px;
 }
+.project-index-page .work-list{
+  gap: 96px;
+}
 .work-page .work-row{
   display: grid;
   grid-template-columns: minmax(260px, 520px) 1fr;
@@ -824,6 +827,9 @@
   display: none;
 }
 @media (max-width: 800px){
+  .project-index-page .work-list{
+    gap: 72px;
+  }
   .work-page .work-row{
     grid-template-columns: 1fr;
     gap: 18px;
