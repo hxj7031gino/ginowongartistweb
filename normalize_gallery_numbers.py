@@ -12,7 +12,7 @@ PROJECTS_DIR = ROOT / "works" / "projects"
 TARGET_SLUGS = {
     "p-2022-001-columbarium-of-the-days",
     "p-2024-001-the-awarded",
-    "p-2024-002-the-alienated",
+    "p-2024-002-the-haunted-image",
 }
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".JPG", ".JPEG", ".PNG", ".WEBP"}

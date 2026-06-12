@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="${1:-$HOME/Desktop/github/my-cv}"
-PROJ="$ROOT/works/projects/p-2024-002-the-alienated"
+PROJ="$ROOT/works/projects/p-2024-002-the-haunted-image"
 VIDDIR="$PROJ/video"
 MP4="$VIDDIR/detail.mp4"
 WEBM="$VIDDIR/detail.webm"

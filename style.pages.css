@@ -291,18 +291,18 @@
     }
 }
 
-.alienated-page .project-midtitle {
+.haunted-image-page .project-midtitle {
     text-align: center;
     margin: 12px auto 28px;
 }
 
-.alienated-page .project-hero img {
+.haunted-image-page .project-hero img {
     height: 600px;
     width: auto;
     max-width: 100%;
 }
 
-.alienated-page .project-detail-split {
+.haunted-image-page .project-detail-split {
     max-width: 1100px;
     margin: 0 auto 32px;
     display: grid;
@@ -311,12 +311,12 @@
     align-items: start;
 }
 
-.alienated-page .project-detail-media,
-.alienated-page .project-detail-text {
+.haunted-image-page .project-detail-media,
+.haunted-image-page .project-detail-text {
     max-width: 600px;
 }
 
-.alienated-page .project-detail-media video {
+.haunted-image-page .project-detail-media video {
     width: 300px;
     max-width: 100%;
     height: auto;
@@ -324,28 +324,28 @@
     display: block;
 }
 
-.alienated-page .project-detail-text {
+.haunted-image-page .project-detail-text {
     line-height: 1.7;
     text-align: justify;
     font-size: 0.8em;
 }
 
-.alienated-page .project-detail-text p {
+.haunted-image-page .project-detail-text p {
     margin: 0 0 16px;
 }
 
 @media (max-width: 900px) {
-    .alienated-page .project-detail-split {
+    .haunted-image-page .project-detail-split {
         grid-template-columns: 1fr;
         gap: 24px;
     }
-    .alienated-page .project-detail-media,
-    .alienated-page .project-detail-text {
+    .haunted-image-page .project-detail-media,
+    .haunted-image-page .project-detail-text {
         max-width: 100%;
     }
-    .alienated-page .project-midtitle,
-    .alienated-page .project-detail-text,
-    .alienated-page .project-back {
+    .haunted-image-page .project-midtitle,
+    .haunted-image-page .project-detail-text,
+    .haunted-image-page .project-back {
         width: calc(100% - 40px);
         margin-left: auto;
         margin-right: auto;
@@ -492,6 +492,88 @@
     color: #000;
 }
 
+/* Project category detail pages */
+.category-project-main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.category-project-cover img {
+    width: 100%;
+    max-height: 760px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.category-project-title {
+    margin: 72px 0 0;
+    font-weight: 400;
+}
+
+.category-project-statement {
+    min-height: 180px;
+}
+
+.category-work-group {
+    margin: 0 0 160px;
+}
+
+.category-work-title {
+    margin: 0 0 40px;
+    font-weight: 400;
+}
+
+.category-work-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.category-work-year {
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
+.category-work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    align-items: start;
+}
+
+.category-work-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .category-work-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .category-project-main {
+        width: calc(100% - 40px);
+    }
+    .category-project-title {
+        margin-top: 48px;
+    }
+    .category-project-statement {
+        min-height: 120px;
+    }
+    .category-work-group {
+        margin-bottom: 100px;
+    }
+    .category-work-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
 /* Content Page Styles */
 .content-section {
     max-width: 750px;
@@ -521,7 +603,37 @@
     text-align: justify;
 }
 
+.about-main {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.about-section {
+    margin: 0 auto 140px;
+}
+
+.about-section-title {
+    max-width: 680px;
+    margin: 0 auto 32px;
+    font-weight: 400;
+}
+
+.about-biography .bio-section-title,
+.about-biography .bio-year,
+.about-biography .bio-list,
+.about-biography .bio-exhibitions {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-biography .bio-section-title {
+    margin-top: 64px;
+}
+
 @media (max-width: 600px) {
+    .about-main,
+    .about-section-title,
     .statement-title,
     .statement-subtitle,
     .statement-content,

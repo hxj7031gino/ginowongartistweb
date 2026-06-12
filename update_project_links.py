@@ -8,7 +8,7 @@ from datetime import datetime
 # 你确认的新项目详情页路径（A: works/projects/<slug>/index.html）
 NEW_LINKS = {
     "the_awarded": "works/projects/p-2024-001-the-awarded/index.html",
-    "the_alienated": "works/projects/p-2024-002-the-alienated/index.html",
+    "the_haunted_image": "work/the-haunted-image/",
     "east_london_socialist_value": "works/projects/p-2023-001-east-london-socialist-value/index.html",
     "making_conversation": "works/projects/p-2023-002-making-conversation/index.html",
     "columbarium_of_the_days": "works/projects/p-2022-001-columbarium-of-the-days/index.html",
@@ -20,7 +20,7 @@ REPLACE_MAP = {
     "works/work-two/index.html": NEW_LINKS["east_london_socialist_value"],
     "works/work-three/index.html": NEW_LINKS["columbarium_of_the_days"],
     # 如果你旧站里还有别的路径（比如 work-four/work-six），你可以在这里继续加
-    # "works/work-four/index.html": NEW_LINKS["the_alienated"],
+    # "works/work-four/index.html": NEW_LINKS["the_haunted_image"],
     # "works/work-six/index.html": NEW_LINKS["making_conversation"],
 }
 

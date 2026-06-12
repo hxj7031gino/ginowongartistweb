@@ -14,7 +14,7 @@ WORK_HTML = ROOT / "work.html"
 # 你指定的 Recent Projects（Home 页展示）
 RECENT_SLUGS = [
     "p-2024-001-the-awarded",
-    "p-2024-002-the-alienated",
+    "p-2024-002-the-haunted-image",
 ]
 
 def backup(p: Path) -> Path:
@@ -41,7 +41,11 @@ def card_html(project: dict, card_class: str, title_class: str, year_class: str)
     slug = project["slug"]
     title = project["title"] or slug
     year = project["year"] or ""
-    href = f'works/projects/{slug}/index.html'
+    href = (
+        "work/the-haunted-image/"
+        if slug == "p-2024-002-the-haunted-image"
+        else f"works/projects/{slug}/index.html"
+    )
     src  = f'works/projects/{slug}/img/thumb.jpg'
 
     # 两行小字：title + year
@@ -94,7 +98,11 @@ def main():
         slug = p["slug"]
         title = p["title"] or slug
         year = p["year"] or ""
-        href = f'works/projects/{slug}/index.html'
+        href = (
+            "work/the-haunted-image/"
+            if slug == "p-2024-002-the-haunted-image"
+            else f"works/projects/{slug}/index.html"
+        )
         src  = f'works/projects/{slug}/img/thumb.jpg'
         work_inner += (
             '                <div class="work-card">\n'

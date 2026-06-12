@@ -28,9 +28,9 @@ MINIMAL_TEMPLATE = """<!DOCTYPE html>
     </div>
     <nav class="site-nav">
       <a href="../../../index.html" class="nav-link">Home</a>
+      <a href="../../../projects/" class="nav-link">Project</a>
       <a href="../../../work.html" class="nav-link">Work</a>
-      <a href="../../../statement.html" class="nav-link">Artist Statement</a>
-      <a href="../../../biography.html" class="nav-link">Biography</a>
+      <a href="../../../about/" class="nav-link">About</a>
     </nav>
   </header>
 
