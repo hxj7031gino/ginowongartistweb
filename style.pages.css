@@ -514,6 +514,13 @@
 
 .category-project-statement {
     min-height: 180px;
+    max-width: 680px;
+    line-height: 1.6;
+}
+
+.category-project-statement p {
+    margin: 0 0 18px;
+    text-align: justify;
 }
 
 .category-work-group {
@@ -563,6 +570,17 @@
 
 .the-haunted-image-project-page .category-work-group:nth-of-type(3) .category-work-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.the-haunted-image-project-page .category-work-group:nth-of-type(3) .category-work-grid img:first-child {
+    width: 80%;
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.the-haunted-image-project-page .category-work-group:nth-of-type(3) .category-work-grid img:not(:first-child) {
+    width: 70%;
+    justify-self: center;
 }
 
 .memory-project-page .category-work-grid {
@@ -642,6 +660,12 @@
     }
     .the-haunted-image-project-page .category-work-group:nth-of-type(3) .category-work-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .the-haunted-image-project-page .category-work-group:nth-of-type(3) .category-work-grid img:first-child {
+        width: 100%;
+    }
+    .the-haunted-image-project-page .category-work-group:nth-of-type(3) .category-work-grid img:not(:first-child) {
+        width: 85%;
     }
     .memory-project-page .category-work-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
