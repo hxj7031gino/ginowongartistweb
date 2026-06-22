@@ -530,6 +530,34 @@
     text-align: justify;
 }
 
+.the-haunted-image-project-page .bilingual-description {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(32px, 5vw, 72px);
+    max-width: 1200px;
+    min-height: 0;
+}
+
+.the-haunted-image-project-page .description-column {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.the-haunted-image-project-page .chinese-text {
+    text-justify: inter-ideograph;
+}
+
+.the-haunted-image-project-page .english-text {
+    hyphens: auto;
+}
+
+.the-haunted-image-project-page .description-column p {
+    margin: 0 0 1.2em;
+}
+
 .category-work-group {
     margin: 0 0 160px;
 }
@@ -655,6 +683,13 @@
         min-height: 120px;
     }
     .category-project-statement p {
+        text-align: left;
+    }
+    .the-haunted-image-project-page .bilingual-description {
+        grid-template-columns: 1fr;
+        max-width: 680px;
+    }
+    .the-haunted-image-project-page .description-column {
         text-align: left;
     }
     .category-work-group {
