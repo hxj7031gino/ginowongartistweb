@@ -778,6 +778,27 @@
     text-align: left;
 }
 
+.blog-list {
+    text-align: left;
+}
+
+.blog-list p {
+    margin: 0 0 30px;
+}
+
+.blog-list-link,
+.blog-list-link:visited,
+.blog-list-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.blog-list-date {
+    color: #666;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
 .blog-content {
     line-height: 1.8;
 }
