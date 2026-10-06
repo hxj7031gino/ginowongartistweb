@@ -757,6 +757,53 @@
     text-align: justify;
 }
 
+.blog-meta {
+    max-width: 680px;
+    margin: 0 auto 28px;
+    color: #666;
+    font-size: 0.9em;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.blog-content {
+    line-height: 1.8;
+}
+
+.blog-content p {
+    text-align: justify;
+}
+
+.blog-figure {
+    margin: 48px auto;
+    text-align: center;
+}
+
+.blog-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.blog-figure-large img {
+    max-width: 680px;
+}
+
+.blog-figure-medium img {
+    max-width: 430px;
+}
+
+.blog-figure-small img {
+    max-width: 280px;
+}
+
+.blog-date {
+    color: #666;
+    font-size: 0.9em;
+    letter-spacing: 0.3px;
+}
+
 .about-main {
     max-width: 750px;
     margin: 0 auto;
