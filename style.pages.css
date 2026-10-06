@@ -764,6 +764,8 @@
 .blog-article-title {
     max-width: 680px;
     margin: 0 auto 10px;
+    font-size: 2.2em;
+    font-weight: 400;
     text-align: left;
 }
 
