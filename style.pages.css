@@ -761,6 +761,10 @@
     padding-top: 56px;
 }
 
+.blog-section > .section-title {
+    display: none;
+}
+
 .blog-article-title {
     max-width: 680px;
     margin: 0 auto 28px;
