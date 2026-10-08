@@ -477,6 +477,20 @@
     text-align: justify;
 }
 
+.embodied-perspective-page .embodied-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    max-width: 680px;
+    margin: 0 auto 72px;
+}
+
+.embodied-perspective-page .embodied-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media (max-width: 600px) {
     .project-page .project-title,
     .project-page .project-meta,
@@ -493,10 +507,15 @@
     .embodied-perspective-page .project-title,
     .embodied-perspective-page .project-meta,
     .embodied-perspective-page .project-description,
+    .embodied-perspective-page .embodied-gallery,
     .embodied-perspective-page .project-back {
         width: calc(100% - 40px);
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .embodied-perspective-page .embodied-gallery {
+        grid-template-columns: 1fr;
     }
 }
 
