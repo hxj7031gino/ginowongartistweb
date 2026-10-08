@@ -463,6 +463,20 @@
     text-align: justify;
 }
 
+.embodied-perspective-page .project-hero {
+    margin: 72px 0 72px;
+}
+
+.embodied-perspective-page .project-hero img {
+    width: 85%;
+}
+
+.embodied-perspective-page .project-description {
+    max-width: 680px;
+    margin: 0 auto 72px;
+    text-align: justify;
+}
+
 @media (max-width: 600px) {
     .project-page .project-title,
     .project-page .project-meta,
@@ -475,7 +489,11 @@
     .four-by-eight-feet-2-2-page .project-title,
     .four-by-eight-feet-2-2-page .project-meta,
     .four-by-eight-feet-2-2-page .project-description,
-    .four-by-eight-feet-2-2-page .project-back {
+    .four-by-eight-feet-2-2-page .project-back,
+    .embodied-perspective-page .project-title,
+    .embodied-perspective-page .project-meta,
+    .embodied-perspective-page .project-description,
+    .embodied-perspective-page .project-back {
         width: calc(100% - 40px);
         margin-left: auto;
         margin-right: auto;
