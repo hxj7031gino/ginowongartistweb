@@ -491,6 +491,10 @@
     display: block;
 }
 
+.embodied-perspective-page .embodied-gallery picture {
+    display: block;
+}
+
 @media (max-width: 600px) {
     .project-page .project-title,
     .project-page .project-meta,
